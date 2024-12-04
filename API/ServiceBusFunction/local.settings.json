@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ServiceBusConnection": "Endpoint=sb://jere-test-intaker.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9LPg0o4eJmgy6k2YLona0Y/QzEjRyiXFM+ASbFONj7s="
+  },
+  "ConnectionStrings": {
+    "IntakerDbContext": "Data Source=localhost;Initial Catalog=intakerDb; Integrated Security=True;Encrypt=False"
+  }
+}
